@@ -36,7 +36,7 @@ function AppContent() {
         <Routes>
           <Route
             path="/login"
-            element={user ? <Navigate to="/find" replace /> : <AuthForm />}
+            element={user ? <Navigate to="/profile" replace /> : <AuthForm />}
           />
           <Route
             path="/profile"
